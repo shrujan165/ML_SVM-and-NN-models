@@ -29,7 +29,7 @@ This repository contains the code, analysis, and predictive models for two disti
 * `binary-lr-new.ipynb`: Logistic Regression baseline.
 * `naive_bayes.ipynb`: Gaussian Naive Bayes implementation.
 * `ml-binary-catboost-1-2.ipynb`: CatBoost implementation.
-* 'binary-mlp-20percent.ipynb' : Neural Network trained on 20% data split.
+* `binary-mlp-20percent.ipynb` : Neural Network trained on 20% data split.
   
 ### Multiclass Classification (Personality Clusters)
 * `multi-class-mlp.ipynb`: Neural Network trained on full data (Best Model).
