@@ -4,7 +4,7 @@
 ![Library](https://img.shields.io/badge/Library-Scikit--Learn%20|%20TensorFlow%20|%20CatBoost-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
-## 📌 Project Overview
+##  Project Overview
 This repository contains the code, analysis, and predictive models for two distinct machine learning classification competitions. The project explores the performance of various algorithms—ranging from linear baselines to advanced ensemble methods and neural networks—under different data constraints (20% vs. 100% training data).
 
 ### The Challenges
@@ -13,14 +13,14 @@ This repository contains the code, analysis, and predictive models for two disti
 
 ---
 
-## 👥 Team Members
+##  Team Members
 * **G. Shrujan Teja** - IMT2023599
 * **Rajdeep Saha** - IMT2023600
 * **Nachiappan.N** - IMT2023605
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 
 ### Binary Classification (Founder Retention)
 * `binary-mlp-new.ipynb`: Neural Network trained on full data (Best Model).
@@ -29,7 +29,8 @@ This repository contains the code, analysis, and predictive models for two disti
 * `binary-lr-new.ipynb`: Logistic Regression baseline.
 * `naive_bayes.ipynb`: Gaussian Naive Bayes implementation.
 * `ml-binary-catboost-1-2.ipynb`: CatBoost implementation.
-
+* 'binary-mlp-20percent.ipynb' : Neural Network trained on 20% data split.
+  
 ### Multiclass Classification (Personality Clusters)
 * `multi-class-mlp.ipynb`: Neural Network trained on full data (Best Model).
 * `multi-class-svc.ipynb`: SVM trained on full data.
@@ -38,15 +39,12 @@ This repository contains the code, analysis, and predictive models for two disti
 * `multi-class-mlp20percent.ipynb`: Neural Network trained on 20% data split.
 * `ml-pred-knn.ipynb`: K-Nearest Neighbors implementation.
 
-### Reports
-* `Project_Report.pdf`: Comprehensive project report with methodology and analysis.
-
 ---
 
-## 🚀 Task 1: Startup Founder Retention (Binary)
+##  Task 1: Startup Founder Retention (Binary)
 
 ### Dataset Description
-**Goal:** Predict whether a startup founder will stay with (`Retained`) or leave (`Exited`) their venture.
+**Goal:** Predict whether a startup founder will stay with (`Stayed`) or leave (`Left`) their venture.
 * **Target:** `retention_status`
 * **Key Features:** `founder_age`, `monthly_revenue_generated`, `years_with_startup`, `work_life_balance_rating`.
 
@@ -58,7 +56,7 @@ This repository contains the code, analysis, and predictive models for two disti
 
 ---
 
-## 🧠 Task 2: Personality Cluster Prediction (Multiclass)
+##  Task 2: Personality Cluster Prediction (Multiclass)
 
 ### Dataset Description
 **Goal:** Classify individuals into one of 5 personality clusters based on behavioral data.
@@ -74,7 +72,7 @@ This repository contains the code, analysis, and predictive models for two disti
 
 ---
 
-## 🏆 Kaggle Leaderboard Results
+##  Kaggle Leaderboard Results
 
 We evaluated all models on the Kaggle Public Leaderboard. Below are the final scores.
 
@@ -101,7 +99,7 @@ We evaluated all models on the Kaggle Public Leaderboard. Below are the final sc
 
 ---
 
-## 🔑 Key Findings
+##  Key Findings
 
 1.  **Neural Networks Superiority:** In both tasks, the MLP (Multi-Layer Perceptron) achieved the highest scores. This was especially pronounced in the Multiclass task, where it outperformed SVM by nearly **9%**, indicating strong non-linear relationships in the personality data.
 2.  **Impact of Data Size:**
@@ -111,7 +109,7 @@ We evaluated all models on the Kaggle Public Leaderboard. Below are the final sc
 
 ---
 
-## 🛠️ Requirements
+##  Requirements
 To run the notebooks, install the following dependencies:
 
 ```bash
