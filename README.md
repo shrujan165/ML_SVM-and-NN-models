@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 ##  Project Overview
-This repository contains the code, analysis, and predictive models for two distinct machine learning classification competitions. The project explores the performance of various algorithms—ranging from linear baselines to advanced ensemble methods and neural networks—under different data constraints (20% vs. 100% training data).
+This repository contains the code, analysis, and predictive models for two distinct machine learning classification competitions. The project explores the performance of various algorithms;ranging from linear baselines to advanced ensemble methods and neural networks,under different data constraints (20% vs. 100% training data).
 
 ### The Challenges
 1.  **Startup Founder Retention Prediction** (Binary Classification)
